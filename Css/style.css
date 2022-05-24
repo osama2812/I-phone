@@ -1,0 +1,125 @@
+/*project Font*/
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Grape+Nuts&family=Lavishly+Yours&family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,200;0,300;0,600;0,800;1,100;1,200;1,700&display=swap" rel="stylesheet">
+);
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #000;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+
+}
+
+
+.container  .logo{
+  width: 10px;
+
+}
+.container header ul li {
+    display: inline-block;
+}
+
+.container header ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #FFF; 
+    margin: 0 20PX;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.content .text{
+    color: #FFF;
+  
+    
+}
+
+.content .text h1{
+font-weight: bold;
+font-size: 45px;
+text-transform: uppercase;
+}
+
+
+.content .text p{
+    font-size: 18px ;
+    font-weight: 700;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+
+.content .text a{
+    text-decoration: none;
+  background-color: #FFF;
+ 
+  color: #000;
+  padding: 8px 15px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+
+
+.content .image{
+    width: 30%;
+}
+
+.content .image img{
+    width: 300px;
+}
+
+
+.icons{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icons img{
+    width: 60px;
+}
+
+
+.icons img:hover{
+    transform: scale(1.2);
+}
+
+
